@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: "Mulish", sans-serif;
+    color: #424247;
+    font-size: 18px;
+    font-weight: normal;
+}
