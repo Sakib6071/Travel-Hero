@@ -2,35 +2,61 @@
   --primary-color: #ff5400;
   --text-heading-color: #131318;
   --text-white: #f7f7f7;
+  --text-description: rgba(19, 19, 24, 0.7)
 }
 * {
   margin: 0;
   padding: 0;
+  
 }
 body {
   font-family: "Mulish", sans-serif;
   color: #424247;
   font-size: 18px;
   font-weight: normal;
-  background-color: #f7f7f7;
+  background-color: var(--text-white)
   box-sizing: border-box;
 }
 .primaryBTN{
     background-color: var(--primary-color);
     color: var(--text-white);
     border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-weight: 700;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+.primaryBTN:hover{
+  cursor: pointer;
+}
 header,
 footer,
-main,
-section {
+main {
   max-width: 2000px;
+  margin: auto;
   padding: 0 100px;
+}
+section{
+  margin: 40px 0;
+  padding: 20px 0;
+}
+
+.sectionHeading{
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--text-heading-color);
+  margin-bottom: 25px;
+  text-align: center;
+}
+.sectionDescription{
+  color: var(--text-description);
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 
 nav {
@@ -178,3 +204,35 @@ outline: 0;
     background-color: var(--primary-color);
 }
 
+
+
+
+
+.tourHistory{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.tourHistory ul{
+  margin: 30px 10px;
+}
+
+.tourHistory ul li{
+  margin: 20px 0px;
+}
+.histroyDetail, .figure{
+  width: 100%;
+}
+.figure img{
+  width: 100%;
+}
+
+.histroyDetail .sectionHeading{
+  text-align: left;
+}
+.histroyDetail .sectionDescription{
+  text-align: left;
+  width: auto;
+}
