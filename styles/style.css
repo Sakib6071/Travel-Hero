@@ -334,3 +334,61 @@ outline: 0;
   font-size: 24px;
   font-weight: 800;
 }
+
+
+
+.packages .packCardContainer .card>img{
+  width: 100%;
+}
+.card{
+  margin: 20px 0;
+  position: relative;
+}
+.packages ul{
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+}
+.packages ul li{
+  color: #424247;
+}
+.ico{
+  margin-right: 5px;
+}
+
+.packDetails{
+  width: 40%;
+  padding: 30px;
+  background-color: #f7f7f7df;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%,-50%);
+  -webkit-transform: translate(0%,-50%);
+  -moz-transform: translate(0%,-50%);
+  -ms-transform: translate(0%,-50%);
+  -o-transform: translate(0%,-50%);
+}
+.card2 .packDetails{
+  top: 50%;
+  left: 5%;
+  transform: translate(0%,-50%);
+}
+
+.packHeader{
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-heading-color);
+  margin: 20px 0 10px 0;
+}
+.packDetail{
+  font-size: 18px;
+  color: #5a5a5d;
+}
+.price{
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 800;
+  margin: 10px 0;
+}
