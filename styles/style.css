@@ -501,6 +501,8 @@ hr {
 }
 .copyright {
   font-size: 16px;
+  text-align: center;
+  color: #858484;
 }
 
 /* responsive */
@@ -567,5 +569,17 @@ display: none;
 .packHeading ul{
   gap: 10px;
   flex-wrap: wrap;
+}
+.sectionHeading{
+  font-size: 30px;
+}
+.sectionDescription{
+  width: 80%;
+}
+.title{
+  font-size: 40px;
+}
+.copyright{
+  text-align: center;
 }
 }
